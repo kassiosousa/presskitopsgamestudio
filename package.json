@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "presskit": "^0.13.0",
+    "sharp": "^0.33.5"
+  },
+    "scripts": {
+    "presskit:build": "presskit build ./data",
+    "presskit:watch": "chokidar \"data/**/*.xml\" \"data/**/images/**/*\" -c \"npm run presskit:build\"",
+    "serve": "browser-sync start --server build --files \"build/**/*\" --no-open --no-ui",
+    "dev": "concurrently -n WATCH,SERVE -c yellow,cyan \"npm:presskit:watch\" \"npm:serve\""
+  }
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Desert Mirage</title>
+  <release-date>TBA</release-date>
+  <website>desert.opsgamestudio.com</website>
+
+  <!-- Link to request press copy: -->
+  <press-copy-request></press-copy-request>
+
+  <platforms>
+    <platform>
+      <name>Steam (Windows/Linux)</name>
+      <link>https://store.steampowered.com/app/2833160/Desert_Mirage/</link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>U$</currency>
+      <value>TBA</value>
+    </price>
+    <price>
+      <currency>R$</currency>
+      <value>TBA</value>
+    </price>
+  </prices>
+
+  <description>Desert Mirage is a 3D third-person mystery-adventure game with investigation and a choices matter narrative.</description>
+
+  <!-- Choose between a single block: -->
+  <history>
+    Using a compass that does not point north, the adventure begins upon arrival in the city of Lagoinhas, 
+    where you must explore the region and discover what happened to your sister in the middle of a desert.
+    <br>
+    Bia find a strange compass and sets out to uncover the truth in a dark, mysterious town. By talking to locals, 
+    she gathers clues to decide her path. Guided by the mysterious compass, she explores a desert of oasis, 
+    solving puzzles across diverse environments, until she discovers the truth.<br><br>
+    In the heart of the desert, every choice is a crossroads, shaping your journey and deciding the future of the ones you love.
+  </history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <features>
+    <feature>Different endings according to the player's choices</feature>
+    <feature>Rich story with several characters to interact with</feature>
+    <feature>Solve a variety of puzzles</feature>
+    <feature>Unique and mysterious scenery</feature>
+    <feature>Inspired by Brazilian folklore</feature>
+    <feature>Immersive and authorial artwork and soundtrack</feature>
+    <feature>4+ hours of gameplay</feature>
+  </features>
+
+  <!-- <trailers>
+    <trailer>
+      <name></name> -->
+      <!-- Pick one: -->
+      <!-- <youtube> -->
+        <!-- Video ID only, not the full URL -->
+      <!-- </youtube>
+      <vimeo> -->
+        <!-- Video ID only, not the full URL -->
+      <!-- </vimeo>
+    </trailer>
+  </trailers> -->
+
+  <!-- You can set your widgets here (optional): -->
+  <widgets>
+    <steam>
+      <!-- Steam ID -->
+      2833160
+    </steam>
+    <!-- <humble> -->
+      <!-- Humble Bundle product/id -->
+      <!-- e.g. mysupergame/42AAbB42dC -->
+    <!-- </humble>
+    <itch> -->
+      <!-- itch.io ID -->
+      <!-- e.g. 42424 -->
+    <!-- </itch>
+    <gamejolt> -->
+      <!-- Game Jolt package ID -->
+      <!-- e.g. 4AbCd2Ef -->
+    <!-- </gamejolt>
+    <bandcamp> -->
+      <!-- Bandcamp ID -->
+      <!-- e.g. 4242424242 -->
+    <!-- </bandcamp> -->
+  </widgets>
+
+  <awards>
+    <award>
+      <description>Best Game Design</description>
+      <info>Desert Mirage - Festival Guarnice de Cinema 2025</info>
+    </award>
+    <award>
+      <description>Best Game - Technical Judge</description>
+      <info>Desert Mirage - Festival Guarnice de Cinema 2025</info>
+    </award>
+    <award>
+      <description>Oficial Selection</description>
+      <info>Desert Mirage - SBGames 2025</info>
+    </award>
+  </awards>
+
+  <!-- <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals> -->
+
+  <credits>
+    <credit>
+      <person>Kassio Sousa</person>
+      <role>Creative Director / Producer</role>
+      <!-- Optional: -->
+      <website>kassiosousa.com.br</website>
+    </credit>
+    <credit>
+      <person>Nuninho Neto</person>
+      <role>Lead Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Artur Pinheiro</person>
+      <role>Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>João Brasil</person>
+      <role>Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Gabriel Drummond</person>
+      <role>3D Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Jonas Durao</person>
+      <role>3D Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Heitor Dias</person>
+      <role>UI/UX</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Rafael Solano</person>
+      <role>Concept Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Pedro Souza</person>
+      <role>Animator</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Sidney Melo</person>
+      <role>Game Designer / Narrative Designer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Sunflyer (Danilo Aguiar, Denner Hall, Wesley Ferreira)</person>
+      <role>Audio</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>João Victor</person>
+      <role>Tests</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <!--<contacts>
+    <contact>
+      <name></name> -->
+      <!-- Pick one: -->
+      <!--<mail></mail>
+      <link></link>
+    </contact>
+  </contacts> -->
+</product>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>OPS Game Studio</title>
+  <based-in>Sao Luis, Brazil</based-in>
+  <founding-date>2018</founding-date>
+  <website>opsgamestudio.com</website>
+  <press-contact>
+    contato@opsgamestudio.com
+  </press-contact>
+
+  <!-- Google analytics ID: -->
+  <analytics></analytics>
+
+  <!-- <phone></phone>
+  <address>
+    <line> -->
+      <!-- Street -->
+    <!-- </line>
+    <line> -->
+      <!-- City -->
+    <!-- </line>
+    <line> -->
+      <!-- Country -->
+    <!-- </line>
+  </address> -->
+
+  <socials>
+    <social>
+      <name>Instagram</name>
+      <link>
+        https://www.instagram.com/opsgamestudio/
+      </link>
+    </social>
+    <social>
+      <name>Youtube</name>
+      <link>
+        https://www.youtube.com/@opsgamestudio
+      </link>
+    </social>
+    <social>
+      <name>Linkedin</name>
+      <link>
+        https://www.linkedin.com/company/opsgamestudio
+      </link>
+    </social>
+  </socials>
+
+  <description>Estúdio independente focado em jogos narrativos e experiências culturais.</description>
+  
+  <!-- Choose between a single block: -->
+  <!-- <history></history> -->
+
+  <awards>
+    <award>
+      <description>Best Game</description>
+      <info>Lunar Axe - Festival Guarnice de Cinema 2021</info>
+    </award>
+    <award>
+      <description>Best Audio</description>
+      <info>Vem Guarnice - Festival Guarnice de Cinema 2023</info>
+    </award>
+    <award>
+      <description>Oficial Selection</description>
+      <info>Final Forge - SBGames 2024</info>
+    </award>
+    <award>
+      <description>Best Game Design</description>
+      <info>Desert Mirage - Festival Guarnice de Cinema 2025</info>
+    </award>
+    <award>
+      <description>Best Game - Technical Judge</description>
+      <info>Desert Mirage - Festival Guarnice de Cinema 2025</info>
+    </award>
+    <award>
+      <description>Oficial Selection</description>
+      <info>Desert Mirage - SBGames 2025</info>
+    </award>
+  </awards>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <!-- <trailers>
+    <trailer>
+      <name></name> -->
+      <!-- Pick one: -->
+      <!-- <youtube> -->
+        <!-- Video ID only, not the full URL -->
+      <!-- </youtube>
+      <vimeo> -->
+        <!-- Video ID only, not the full URL -->
+      <!-- </vimeo>
+    </trailer>
+  </trailers> -->
+
+  <!-- <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals> -->
+
+  <!-- <credits>
+    <credit>
+      <person></person>
+      <role></role> -->
+      <!-- Optional: -->
+      <!-- <website></website>
+    </credit>
+  </credits> -->
+
+  <!-- <contacts>
+    <contact>
+      <name></name> -->
+      <!-- Pick one: -->
+      <!-- <mail></mail>
+      <link></link>
+    </contact>
+  </contacts> -->
+</company>

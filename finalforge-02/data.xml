@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Final Forge</title>
+  <release-date>TBA</release-date>
+  <website>finalforge.opsgamestudio.com</website>
+
+  <!-- Link to request press copy: -->
+  <press-copy-request>contact@opsgamestudio.com</press-copy-request>
+
+  <platforms>
+    <platform>
+      <name>Steam (Windows/Linux)</name>
+      <link>https://store.steampowered.com/app/2260170/Final_Forge/</link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>U$</currency>
+      <value>TBA</value>
+    </price>
+    <price>
+      <currency>R$</currency>
+      <value>TBA</value>
+    </price>
+  </prices>
+
+  <description>
+    Defend your tower and protect the dwarf's treasure from marauding creatures in this roguelike tower defense game. 
+    Explore the region, collect resources and choose the right upgrades. 
+    But be careful, don't leave your fortress empty for too long.
+  </description>
+
+  <!-- Choose between a single block: -->
+  <history>
+    <h6>ABOUT THIS GAME</h6>
+    Defend your tower with a magic hammer and search for resources around your fortress as quickly as possible. 
+    Build better defenses to protect yourself from attacks, create weapons and upgrades until you manage to destroy 
+    all your enemies or die trying in this tower defense with procedural generation of waves of enemies.  
+    <h6>DEFEND YOUR TOWER</h6>
+    Control your cannon, upgrade your forces and crafted weaponry to defend yourself from waves of procedurally generated enemies 
+    that will come to attack your tower. Don't let them steal the dwarf's treasure!
+    <h6>COLLECT RESOURCES</h6>
+    Collect valuable resources around your fortress to enhance your defenses or recover from attacks.
+    Be careful how much you can carry and your time, your enemies can attack you while exploring or destroy your tower while you are defenseless.
+    <h6>UPGRADE YOUR DEFENSE</h6>
+    Create and upgrade armaments with the resources you can get, face several enemy marauding orders and improve your resource collection 
+    to survive until you can destroy all your enemies
+    <h6>RUN AWAY FROM ENEMIES</h6>
+    Be careful during your resource gathering, you will only be able to run and back to your fortress and your enemies chase you to beat you, 
+    run to your fortress and protect yourself from enemies.
+    <br><br>
+    Destroy them all!
+  </history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <features>
+    <feature>Procedural generation, a new adventure every match</feature>
+    <feature>Find magical artifacts and get stronger with every match</feature>
+    <feature>Collect and manage resources from the surrounding area</feature>
+    <feature>Take control of the cannon and defend your tower from hordes of invaders</feature>
+    <feature>Be careful not to be attacked while exploring</feature>
+    <feature>Build and upgrade weapons through an upgrade tree</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name></name>
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+        jmC2KfjNigw
+      </youtube>
+      <!--<vimeo> -->
+        <!-- Video ID only, not the full URL -->
+      <!-- </vimeo> -->
+    </trailer>
+  </trailers>
+
+  <!-- You can set your widgets here (optional): -->
+  <widgets>
+    <steam>
+      <!-- Steam ID -->
+      2260170
+    </steam>
+    <!-- <humble> -->
+      <!-- Humble Bundle product/id -->
+      <!-- e.g. mysupergame/42AAbB42dC -->
+    <!-- </humble>
+    <itch> -->
+      <!-- itch.io ID -->
+      <!-- e.g. 42424 -->
+    <!-- </itch>
+    <gamejolt> -->
+      <!-- Game Jolt package ID -->
+      <!-- e.g. 4AbCd2Ef -->
+    <!-- </gamejolt>
+    <bandcamp> -->
+      <!-- Bandcamp ID -->
+      <!-- e.g. 4242424242 -->
+    <!-- </bandcamp> -->
+  </widgets>
+
+  <awards>
+    <award>
+      <description>Oficial Selection</description>
+      <info>Game Dev of Color 2024</info>
+    </award>
+    <award>
+      <description>Finalist Best Game</description>
+      <info>SBGames 2024</info>
+    </award>
+  </awards>
+
+  <!-- <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals> -->
+
+  <credits>
+    <credit>
+      <person>Kassio Sousa</person>
+      <role>Producer</role>
+      <!-- Optional: -->
+      <website>kassiosousa.com.br</website>
+    </credit>
+    <credit>
+      <person>Nuninho Neto</person>
+      <role>Lead Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Artur Pinheiro</person>
+      <role>Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Gabriel Drummond</person>
+      <role>3D Artist and Animation</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Heitor Dias</person>
+      <role>UI/UX and Concept Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Rafael Solano</person>
+      <role>Concept Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Sunflyer (Danilo Aguiar, Denner Hall, Wesley Ferreira)</person>
+      <role>Audio</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Instagram</name>
+      <!-- Pick one: -->
+      <!-- <mail></mail> -->
+      <link>https://www.instagram.com/opsgamestudio/</link>
+    </contact>
+  </contacts>
+</product>
