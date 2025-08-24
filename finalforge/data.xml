@@ -26,41 +26,53 @@
   </prices>
 
   <description>
-    Defend your tower and protect the dwarf's treasure from marauding creatures in this roguelike tower defense game. 
-    Explore the region, collect resources and choose the right upgrades. 
-    But be careful, don't leave your fortress empty for too long.
+    <![CDATA[
+      Defend your tower and protect the dwarf's treasure from marauding creatures in this roguelike tower defense game. 
+      Explore the region, collect resources and choose the right upgrades. 
+      But be careful, don't leave your fortress empty for too long.
+    ]]>
   </description>
 
   <!-- Choose between a single block: -->
   <history>
-    ABOUT THIS GAME -
-    Defend your tower with a magic hammer and search for resources around your fortress as quickly as possible. 
-    Build better defenses to protect yourself from attacks, create weapons and upgrades until you manage to destroy 
-    all your enemies or die trying in this tower defense with procedural generation of waves of enemies.  
-    DEFEND YOUR TOWER -
-    Control your cannon, upgrade your forces and crafted weaponry to defend yourself from waves of procedurally generated enemies 
-    that will come to attack your tower. Don't let them steal the dwarf's treasure!
-    COLLECT RESOURCES -
-    Collect valuable resources around your fortress to enhance your defenses or recover from attacks.
-    Be careful how much you can carry and your time, your enemies can attack you while exploring or destroy your tower while you are defenseless.
-    UPGRADE YOUR DEFENSE -
-    Create and upgrade armaments with the resources you can get, face several enemy marauding orders and improve your resource collection 
-    to survive until you can destroy all your enemies
-    RUN AWAY FROM ENEMIES -
-    Be careful during your resource gathering, you will only be able to run and back to your fortress and your enemies chase you to beat you, 
-    run to your fortress and protect yourself from enemies.
-    Destroy them all!
+      Defend your tower and protect the dwarf's treasure from marauding creatures in this roguelike tower defense game. 
+      Explore the region, collect resources and choose the right upgrades. But be careful, don't leave your fortress empty for too long.
   </history>
 
   <!-- Or multiple blocks: -->
-  <!--
   <histories>
     <history>
-      <header></header>
-      <text></text>
+      <header>ABOUT THIS GAME</header>
+      <text>Defend your tower with a magic hammer and search for resources around your fortress as quickly as possible. 
+      Build better defenses to protect yourself from attacks, create weapons and upgrades until you manage to destroy 
+      all your enemies or die trying in this tower defense with procedural generation of waves of enemies. </text>
+    </history>
+    <history>
+      <header>DEFEND YOUR TOWER</header>
+      <text>Control your cannon, upgrade your forces and crafted weaponry to defend yourself from waves of procedurally generated enemies 
+      that will come to attack your tower. Don't let them steal the dwarf's treasure!</text>
+    </history>
+    <history>
+      <header>COLLECT RESOURCES</header>
+      <text>Collect valuable resources around your fortress to enhance your defenses or recover from attacks.
+      Be careful how much you can carry and your time, your enemies can attack you while exploring or destroy your tower while you are defenseless.</text>
+    </history>
+    <history>
+      <header>UPGRADE YOUR DEFENSE</header>
+      <text>Create and upgrade armaments with the resources you can get, face several enemy marauding orders and improve your resource collection 
+      to survive until you can destroy all your enemies</text>
+    </history>
+    <history>
+      <header>RUN AWAY FROM ENEMIES</header>
+      <text>Be careful during your resource gathering, you will only be able to run and back to your fortress and your enemies chase you to beat you, 
+      run to your fortress and protect yourself from enemies.</text>
+    </history>
+    <history>
+      <header>Destroy them all!</header>
+      <!-- <text>Defend your tower with a magic hammer…</text> -->
     </history>
   </histories>
-  -->
+ 
 
   <features>
     <feature>Procedural generation, a new adventure every match</feature>
