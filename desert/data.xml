@@ -26,9 +26,9 @@
   </prices>
 
   <description>
-  Desert Mirage is a mystery-adventure game with investigation mechanics and a choices matter narrative.
-  Play as Bia and searches for her missing sister in a desert of dunes and lagoons, unraveling mysteries 
-  about a legend that has come to life and haunts an entire town.
+    Desert Mirage is a mystery-adventure game with investigation mechanics and a choices matter narrative.
+    Play as Bia and searches for her missing sister in a desert of dunes and lagoons, unraveling mysteries 
+    about a legend that has come to life and haunts an entire town.
   </description>
 
   <!-- Choose between a single block: -->
@@ -55,6 +55,8 @@
       solving puzzles across diverse environments, until she discovers the truth.
       In the heart of the desert, every choice is a crossroads, shaping your journey and deciding the future of the ones you love.
       </text>
+    </history>
+    <history>
       <header>INSPIRATION</header>
       <text>
       Inspired by games like Oxenfree and Limbo, we set out to create Desert Mirage as a narrative-driven mystery game with a darker atmosphere, offering players meaningful choices that will impact their journey. 
@@ -62,13 +64,18 @@
       Bia searches for her missing sister, trying to find the truth in a mysterious city. By talking to locals, she gathers clues to decide her path. Guided by a mysterious compass, she explores a desert of oasis, solving puzzles across diverse environments, until she discovers the truth.
       In the heart of the desert, every choice is a crossroads, shaping your journey and deciding the future of the ones you love.
       </text>
+    </history>
+    <history>
       <header>Exploration</header>
       <text>There will be items and interactive areas to discover, allowing players to find resources and gather information throughout the game.</text>
-      <header>Compass</header>
-      <text>Using an ancient item (a compass that doesn't point north) players will be able to identify key locations and important paths to follow.</text>
-      <header>Choices</header>
+    </history>
+    <history><header>Compass</header>
+      <text>Using an ancient item (a compass that doesnt point north) players will be able to identify key locations and important paths to follow.</text>
+    </history>
+    <history><header>Choices</header>
       <text>Players will constantly make decisions through dialogues, from choosing which path to follow to deciding whether or not to talk to a character.</text>
-      <header>Puzzles</header>
+    </history>
+    <history><header>Puzzles</header>
       <text>Players will need to solve puzzles to progress, seamlessly integrated into the narrative, offering creative ways to gather more information or unlock new areas.</text>
     </history>
   </histories>
@@ -93,9 +100,9 @@
       </youtube>
       <!-- <vimeo> -->
         <!-- Video ID only, not the full URL -->
-      <!-- </vimeo>
+      <!-- </vimeo> -->
     </trailer>
-  </trailers>-->
+  </trailers>
 
   <!-- You can set your widgets here (optional): -->
   <widgets>
