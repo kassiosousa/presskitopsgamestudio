@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+
+# Saída de build (gerada pelo presskit)
+build/
+dist/
+.cache/
+.temp/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test/coverage (se existir)
+coverage/
+.nyc_output/
+
+# Variáveis locais
+.env*
+!.env.example
+
+# SO/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json

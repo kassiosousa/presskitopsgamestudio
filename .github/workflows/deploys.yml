@@ -1,0 +1,50 @@
+name: Build & Deploy Presskit
+
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch: {}
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm ci || npm i
+
+      - name: Build presskit
+        run: npx presskit build .
+
+      - name: Prepare SSH
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_KEY:  ${{ secrets.SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          # adiciona host à known_hosts (sem prompt)
+          ssh-keyscan -p "${SSH_PORT}" "${SSH_HOST}" >> ~/.ssh/known_hosts
+
+      - name: Deploy via rsync over SSH
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          TARGET_DIR: ${{ secrets.TARGET_DIR }}
+        run: |
+          # cria pasta no destino se não existir
+          ssh -p "${SSH_PORT}" ${SSH_USER}@${SSH_HOST} "mkdir -p '${TARGET_DIR}'"
+          # sincroniza build/ -> TARGET_DIR (apaga o que não existe mais)
+          rsync -az --delete -e "ssh -p ${SSH_PORT}" build/ ${SSH_USER}@${SSH_HOST}:"${TARGET_DIR}/"
