@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Alana: A Discovery Adventure</title>
+  <release-date>TBA</release-date>
+  <website>presskit.opsgamestudio.com/alana</website>
+
+  <!-- Link to request press copy: -->
+  <press-copy-request>contact@opsgamestudio.com</press-copy-request>
+
+  <platforms>
+    <platform>
+      <name>PC (Steam)</name>
+      <link></link>
+    </platform>
+    <platform>
+      <name>Xbox</name>
+      <link></link>
+    </platform>
+    <platform>
+      <name>PlayStation</name>
+      <link></link>
+    </platform>
+    <platform>
+      <name>Nintendo Switch</name>
+      <link></link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>U$</currency>
+      <value>TBA</value>
+    </price>
+    <price>
+      <currency>R$</currency>
+      <value>TBA</value>
+    </price>
+  </prices>
+
+  <description>
+    <![CDATA[
+      Alana: A Discovery Adventure is a cozy exploration game built around photography.
+      Help young Alana find the magical entities that vanished from her hometown and bring life
+      back to its streets. Registered as a guide-photographer, she wanders a charming historic
+      town, snaps the photos requested by locals and tourists, fills her album and reveals the
+      city's hidden beauties. No puzzles, no combat, no rush, just relaxed discovery at your own pace.
+    ]]>
+  </description>
+
+  <!-- Or multiple blocks: -->
+  <histories>
+    <history>
+      <header>ABOUT</header>
+      <text>
+      Alana no longer sees the joy in the city where she lives. The streets that used to be full of
+      tourists are now empty and lifeless. Talking to her grandmother, a shopkeeper in the historic
+      center, Alana learns that the magical entities that once delighted visitors have disappeared,
+      driving the tourists away and leaving the family store, which sells souvenirs, empty and her
+      parents worried. Alana then registers as a guide and photographer at the tourism center and
+      sets out on an adventure to find the entities and all the hidden beauties of the city.
+      </text>
+    </history>
+    <history>
+      <header>PHOTOGRAPH THE CITY</header>
+      <text>
+      Photography is the heart of the game. Locals and tourists ask Alana for specific shots, a blue
+      azulejo tile, a church, the view from the top of the stairway, and she frames, zooms and captures
+      the perfect picture with her old polaroid camera. Every photo fills her catalog album, and rare
+      shots make the news, showing off Alana's achievements and raising her tourist-guide level.
+      </text>
+    </history>
+    <history>
+      <header>EXPLORE AND UNLOCK NEW AREAS</header>
+      <text>
+      As Alana's guide level rises, more tourists return and new districts of the city open up. Each of
+      the three areas hides new magical entities to track down and photograph, along with collectible
+      photo albums to complete, traditional outfits, local cuisine, azulejo tiles, iconic views, street
+      art and more. Every discovery brings a little more life back to the streets.
+      </text>
+    </history>
+    <history>
+      <header>MAGICAL ENTITIES OF FOLKLORE</header>
+      <text>
+      Hidden across the town are magical entities drawn from Brazilian folklore, from the mischievous
+      Cazumba to the ghostly carriage of Ana Jansen and the Manguda, all the way to the great Enchanted
+      Serpent that closes the journey. Follow the rumors, talk to the locals to learn where each entity
+      appears, and catch them on camera before they slip away.
+      </text>
+    </history>
+    <history>
+      <header>A REAL PLACE, REIMAGINED</header>
+      <text>
+      Alana is set in a cozy, low-poly reimagining of the historic center of Sao Luis do Maranhao, Brazil,
+      inspired by a real place and its culture, architecture and legends. Warm colors, a relaxing pace and
+      a mysterious atmosphere invite players, whether they know the city or not, to discover its beauty and
+      fall in love with it all over again.
+      </text>
+    </history>
+  </histories>
+
+  <features>
+    <feature>Cozy, relaxing exploration with no puzzles and no combat, play at your own pace</feature>
+    <feature>Photography as the core mechanic: frame, zoom and capture the perfect shot</feature>
+    <feature>A charming historic town inspired by the real Sao Luis do Maranhao, Brazil</feature>
+    <feature>Fill collectible photo albums: outfits, local cuisine, azulejo tiles, famous buildings and more</feature>
+    <feature>Discover magical entities from Brazilian folklore hidden across the city</feature>
+    <feature>Complete photo requests from locals and tourists to raise your tourist-guide level</feature>
+    <feature>Unlock new areas and bring life and visitors back to the streets</feature>
+    <feature>Accessibility options: subtitles, simple language, adjustable font size and resolution</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Gameplay Trailer</name>
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+        6SPdrkMEPys
+      </youtube>
+      <!-- <vimeo> -->
+        <!-- Video ID only, not the full URL -->
+      <!-- </vimeo> -->
+    </trailer>
+  </trailers>
+
+  <!-- You can set your widgets here (optional): -->
+  <!-- <widgets>
+    <steam> -->
+      <!-- Steam ID -->
+    <!-- </steam>
+  </widgets> -->
+
+  <!-- <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes> -->
+
+  <credits>
+    <credit>
+      <person>Nuninho Neto</person>
+      <role>Producer / Lead Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Kassio Sousa</person>
+      <role>Creative Director</role>
+      <!-- Optional: -->
+      <website>kassiosousa.com.br</website>
+    </credit>
+    <credit>
+      <person>João Filho</person>
+      <role>Programmer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Gabriel Drummond</person>
+      <role>3D Artist / Game Designer</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Jonas Durao</person>
+      <role>3D Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Pedro Souza</person>
+      <role>3D Animator</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Rafael Solano</person>
+      <role>Art Direction / Concept Artist</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Raissa Kaline</person>
+      <role>UI/UX</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>Sunflyer (Danilo Aguiar, Denner Hall, Wesley Ferreira)</person>
+      <role>Audio</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+    <credit>
+      <person>João Victor</person>
+      <role>QA / Tests</role>
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Instagram</name>
+      <!-- Pick one: -->
+      <!-- <mail></mail> -->
+      <link>https://www.instagram.com/opsgamestudio/</link>
+    </contact>
+  </contacts>
+</product>
